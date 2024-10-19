@@ -3,6 +3,7 @@
   import Section from "../components/Section.svelte";
   import { cosmetics } from "../game/things";
   import { string } from "../lib/godot";
+  import { iconsDir } from "../lib/site";
 
   export let save: WebfishingSave;
 
@@ -44,7 +45,7 @@
         checked={save.value.cosmetics_unlocked.value.find((i) => i.value === id) != null}
         on:change={(e) => setCosmeticWrapped(id, e)}
       />
-      <img src={`/icons/${cosmetic.icon}`} alt={cosmetic.name} class="icon" />
+      <img src={`${iconsDir}/${cosmetic.icon}`} alt={cosmetic.name} class="icon" />
       <label for={`cosmetic-${id}`}>{cosmetic.name}</label>
     </div>
   {/each}

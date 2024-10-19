@@ -3,6 +3,7 @@
   import { items } from "../game/things";
   import type { InventoryItem } from "../game/types";
   import type { GodotCustomDictionary } from "../lib/types";
+  import { iconsDir } from "../lib/site";
 
   const dispatch = createEventDispatcher();
 
@@ -12,7 +13,7 @@
 
 <div class="item">
   <div class="itemSelect">
-    <img src={`/icons/${items[item.value.id.value].icon}`} alt={items[item.value.id.value].name} />
+    <img src={`${iconsDir}/${items[item.value.id.value].icon}`} alt={items[item.value.id.value].name} />
     <select bind:value={item.value.id.value}>
       {#each Object.keys(items) as id}
         <option value={id}>{items[id].name} ({id})</option>

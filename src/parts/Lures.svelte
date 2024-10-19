@@ -3,6 +3,7 @@
   import Section from "../components/Section.svelte";
   import { lures, baits } from "../game/lure";
   import { string } from "../lib/godot";
+  import { iconsDir } from "../lib/site";
 
   export let save: WebfishingSave;
 
@@ -40,7 +41,7 @@
         checked={save.value.bait_unlocked.value.find((l) => l.value === bait) != null}
         on:change={(e) => setBaitWrapped(bait, e)}
       />
-      <img src={`/icons/${baits[bait].icon}`} alt={baits[bait].name} class="icon" />
+      <img src={`${iconsDir}/${baits[bait].icon}`} alt={baits[bait].name} class="icon" />
       <label for={`bait-${bait}`}>{baits[bait].name}</label>
     </div>
   {/each}
@@ -53,7 +54,7 @@
         checked={save.value.lure_unlocked.value.find((l) => l.value === lure) != null}
         on:change={(e) => setLureWrapped(lure, e)}
       />
-      <img src={`/icons/${lures[lure].icon}`} alt={lures[lure].name} class="icon" />
+      <img src={`${iconsDir}/${lures[lure].icon}`} alt={lures[lure].name} class="icon" />
       <label for={`lure-${lure}`}>{lures[lure].name}</label>
     </div>
   {/each}

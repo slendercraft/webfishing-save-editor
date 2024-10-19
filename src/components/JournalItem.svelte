@@ -2,6 +2,7 @@
   import type { JournalItem, WebfishingSave } from "../game/types";
   import { items } from "../game/things";
   import { int } from "../lib/godot";
+  import { iconsDir } from "../lib/site";
 
   export let id: string;
   export let item: JournalItem;
@@ -19,7 +20,7 @@
 
 <fieldset class="grid journalItem">
   <div class="journalItemName">
-    <img src={`/icons/${items[id].icon}`} alt={items[id].name} />
+    <img src={`${iconsDir}/${items[id].icon}`} alt={items[id].name} />
     <span>{items[id].name}</span>
   </div>
 
