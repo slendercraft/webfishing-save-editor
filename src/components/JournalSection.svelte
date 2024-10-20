@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { JournalEntry, WebfishingSave } from "../game/types";
+  import type { WebfishingSave } from "../game/types";
   import JournalItem from "./JournalItem.svelte";
 
   export let save: WebfishingSave;

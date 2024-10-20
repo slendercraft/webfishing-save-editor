@@ -1,1 +1,1 @@
-export const iconsDir = import.meta.env.DEV ? "/icons" : "/webfishing-save-editor/icons";
+export const iconsDir = "/webfishing-save-editor/icons";
