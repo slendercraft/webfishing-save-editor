@@ -94,7 +94,7 @@ export type WebfishingSave = GodotCustomDictionary<{
     vsync: GodotInt;
     water: GodotInt;
   }>;
-  quests: GodotCustomDictionary<
+quests: GodotCustomDictionary<
     Record<
       string,
       GodotCustomDictionary<{
@@ -111,6 +111,7 @@ export type WebfishingSave = GodotCustomDictionary<{
         tier: GodotInt;
         title: GodotString;
         xp_reward: GodotReal;
+        flags?: GodotCustomArray<GodotString[]>; // Ensure flags is always present
       }>
     >
   >;
