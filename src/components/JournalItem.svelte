@@ -16,6 +16,11 @@
       item.quality.value.push(int(rarity));
     }
   }
+
+  function updateCount(event: Event) {
+    const target = event.target as HTMLInputElement;
+    item.count.value = parseInt(target.value, 10) || 0; // Ensure count is a valid number
+  }
 </script>
 
 <fieldset class="grid journalItem">
@@ -24,6 +29,7 @@
     <span>{items[id].name}</span>
   </div>
 
+  <!-- Rarity selection -->
   <div>
     {#each [0, 1, 2, 3, 4, 5] as rarity}
       <div>
@@ -40,9 +46,22 @@
     {/each}
   </div>
 
+  <!-- Record display -->
   <div>
     <label for={`journalItem-${id}-record`}>Record</label>
     <input type="number" bind:value={item.record.value} id={`journalItem-${id}-record`} />
+  </div>
+
+  <!-- Count editing -->
+  <div>
+    <label for={`journalItem-${id}-count`}>Amount Caught</label>
+    <input
+      type="number"
+      id={`journalItem-${id}-count`}
+      bind:value={item.count.value}
+      on:input={updateCount}
+      min="0"
+    />
   </div>
 </fieldset>
 
