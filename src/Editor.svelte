@@ -8,6 +8,7 @@
   import Cosmetics from "./parts/Cosmetics.svelte";
   import Journal from "./parts/Journal.svelte";
   import Lures from "./parts/Lures.svelte";
+  import Quests from "./parts/Quests.svelte";
 
   export let save: WebfishingSave;
 
@@ -17,7 +18,8 @@
     Inventory,
     Cosmetics,
     Journal,
-    Lures
+    Lures,
+    Quests
   ];
 </script>
 
