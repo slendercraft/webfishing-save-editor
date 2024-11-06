@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { items } from "../game/things";
   import type { WebfishingSave } from "../game/types";
   import JournalItem from "./JournalItem.svelte";
 
@@ -8,7 +9,7 @@
   let typedSectionName = sectionName as keyof WebfishingSave["value"]["journal"]["value"];
   let section = save.value.journal.value[typedSectionName];
 
-  const keys = Object.keys(section.value).filter((key) => !key.startsWith("_"));
+  const keys = Object.keys(section.value).filter((key) => !key.startsWith("_") && items[key] != null);
 </script>
 
 {#each keys as key}

@@ -21,11 +21,6 @@
   ];
 </script>
 
-<p>
-  Played for: {save.value.recorded_time.value.hour.value}h {save.value.recorded_time.value.minute.value}m {save.value
-    .recorded_time.value.second.value}s
-</p>
-
 {#each sections as Section, i}
   <Section {save} />
 {/each}

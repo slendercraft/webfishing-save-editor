@@ -28,7 +28,7 @@
     writer2.writeUInt32(bytes.length);
     writer2.write(bytes);
 
-    writeFile(writer2.toBytes(), "webfishing_migrated_data.save");
+    writeFile(writer2.toBytes(), "webfishing_save_slot_0.sav");
   }
 </script>
 
@@ -38,12 +38,12 @@
 </hgroup>
 
 <p>
-  Your save is located at <code>%AppData%\Godot\app_userdata\webfishing_2_newver\webfishing_migrated_data.save</code>.
-  Back up your save before editing it!
+  Your save is located at <code>%AppData%\Godot\app_userdata\webfishing_2_newver\webfishing_save_slot_0.sav</code>. Back
+  up your save before editing it!
 </p>
 
 <div class="fileUpload" role="group">
-  <input type="file" name="file" accept=".save" on:change={uploadSave} />
+  <input type="file" name="file" accept=".sav" on:change={uploadSave} />
 
   {#if save}
     <input type="button" value="Download save" on:click={downloadSave} />

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { JournalItem, WebfishingSave } from "../game/types";
+  import type { JournalItem } from "../game/types";
   import { items } from "../game/things";
   import { int } from "../lib/godot";
   import { iconsDir } from "../lib/site";

@@ -114,11 +114,6 @@ export type WebfishingSave = GodotCustomDictionary<{
       }>
     >
   >;
-  recorded_time: GodotCustomDictionary<{
-    hour: GodotNumber;
-    minute: GodotNumber;
-    second: GodotNumber;
-  }>;
   rod_chance: GodotInt;
   rod_luck: GodotInt;
   rod_power: GodotInt;
