@@ -11,7 +11,8 @@
     ocean: "Ocean",
     rain: "Rain",
     water_trash: "Trash",
-    alien: "Alien"
+    alien: "Alien",
+    void: "Void"
   };
 </script>
 

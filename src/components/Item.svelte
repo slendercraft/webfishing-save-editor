@@ -13,10 +13,10 @@
 
 <div class="item">
   <div class="itemSelect">
-    <img src={`${iconsDir}/${items[item.value.id.value].icon}`} alt={items[item.value.id.value].name} />
+    <img src={`${iconsDir}/${items[item.value.id.value]?.icon}`} alt={items[item.value.id.value]?.name} />
     <select bind:value={item.value.id.value}>
       {#each Object.keys(items) as id}
-        <option value={id}>{items[id].name} ({id})</option>
+        <option value={id}>{items[id]?.name} ({id})</option>
       {/each}
     </select>
 
