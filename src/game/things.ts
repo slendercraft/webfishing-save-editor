@@ -451,6 +451,7 @@ const undershirt: Things = {
 };
 
 const fish: Things = {
+  fish_void_voidfish: { name: "CREATURE", category: "fish", icon: "fish_void_voidfish.gif" },
   fish_alien_dog: { name: "Unidentified Fish Object", category: "fish", icon: "alien_creature1.png" },
   fish_deep_test: { name: "Axolotl", category: "fish", icon: "creature_main30.png" },
   fish_deep_testb: { name: "Axolotl", category: "fish", icon: "creature_main30.png" },

@@ -26,7 +26,7 @@
 <fieldset class="grid journalItem">
   <div class="journalItemName">
     <img src={`${iconsDir}/${items[id].icon}`} alt={items[id].name} />
-    <span>{items[id].name}</span>
+    <span>{items[id]?.name || id}</span>
   </div>
 
   <!-- Rarity selection -->
