@@ -34,7 +34,11 @@
 
 <hgroup>
   <h1>WEBFISHING Save Editor</h1>
-  <p>by <a href="https://notnite.com/">NotNite</a> and <a href="https://hl2.sh/">Jay</a></p>
+  <p>
+    <a href="https://github.com/NotNite/webfishing-save-editor">GitHub</a> - by
+    <a href="https://notnite.com/">NotNite</a>
+    and <a href="https://hl2.sh/">Jay</a>
+  </p>
 </hgroup>
 
 <p>

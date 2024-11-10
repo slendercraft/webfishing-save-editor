@@ -15,7 +15,7 @@ function findFiles(dir) {
   return ret;
 }
 
-const dir = "D:/code/misc/godot/webfishing-decomp";
+const dir = "D:/code/misc/webfishing/webfishing-decomp";
 const out = "./src/game";
 const iconsDir = "./public/icons";
 if (!fs.existsSync(out)) fs.mkdirSync(out);
@@ -48,21 +48,29 @@ for (const file of files) {
   const category = content.match(/category = "([^"]+)"/)?.[1];
   if (!category) continue;
 
-  const name = content.match(/name = "([^"]+)"/)?.[1];
+  const name = content.match(/name = "((?:[^"\\]|\\.)*)"/)?.[1]?.replace(/\\"/g, '"');
   if (!name) continue;
 
   const iconId = content.match(/icon = ExtResource\( (\d+) \)/)?.[1];
-  if (!iconId) continue;
 
-  let iconPath = content
-    .split("\n")
-    .find((line) => line.includes(`id=${iconId.trim()}`))
-    .match(/path="([^"]+)"/)?.[1];
-  if (!iconPath) continue;
+  let iconPath =
+    iconId != null
+      ? content
+          .split("\n")
+          .find((line) => line.includes(`id=${iconId.trim()}`))
+          .match(/path="([^"]+)"/)?.[1]
+      : null;
+  let iconFileName = null;
 
-  iconPath = iconPath.replace("res://", "");
-  const iconFileName = path.basename(iconPath);
-  fs.copyFileSync(path.join(dir, iconPath), path.join(iconsDir, iconFileName));
+  if (iconPath != null) {
+    iconPath = iconPath.replace("res://", "");
+    iconFileName = path.basename(iconPath);
+    if (iconFileName === "void_fish_animated.tres") {
+      iconFileName = "fish_void_voidfish.gif";
+    } else {
+      fs.copyFileSync(path.join(dir, iconPath), path.join(iconsDir, iconFileName));
+    }
+  }
 
   if (!cats[type].includes(category)) {
     cats[type].push(category);

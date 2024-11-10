@@ -94,7 +94,7 @@ export type WebfishingSave = GodotCustomDictionary<{
     vsync: GodotInt;
     water: GodotInt;
   }>;
-quests: GodotCustomDictionary<
+  quests: GodotCustomDictionary<
     Record<
       string,
       GodotCustomDictionary<{
@@ -153,7 +153,7 @@ export enum Category {
 export type Thing = {
   name: string;
   category: `${Category}`;
-  icon: string;
+  icon: string | null;
 };
 
 export type Things = Record<string, Thing>;

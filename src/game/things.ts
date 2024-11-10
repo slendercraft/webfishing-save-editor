@@ -1,6 +1,216 @@
 // auto generated with extractor.js
 import type { Things } from "./types";
 
+const hat: Things = {
+  hat_none: { name: "No Hat", category: "hat", icon: null },
+  hat_baseball_cap_big: { name: "Fear Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_exclaim: { name: "Mysterious Block Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_green: { name: "Fish Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_mcd: { name: "Fastfood Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_missing: { name: "Missing Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_orange: { name: "Catfish Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_pee: { name: "Peeing Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_size: { name: "Size Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_baseball_cap_sports: { name: "Sport Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
+  hat_beanie_black: { name: "Black Beanie", category: "hat", icon: "cosmetic_icons35.png" },
+  hat_beanie_blue: { name: "Blue Beanie", category: "hat", icon: "cosmetic_icons35.png" },
+  hat_beanie_green: { name: "Green Beanie", category: "hat", icon: "cosmetic_icons35.png" },
+  hat_beanie_maroon: { name: "Maroon Beanie", category: "hat", icon: "cosmetic_icons35.png" },
+  hat_beanie_teal: { name: "Teal Beanie", category: "hat", icon: "cosmetic_icons35.png" },
+  hat_beanie_white: { name: "White Beanie", category: "hat", icon: "cosmetic_icons35.png" },
+  hat_beanie_yellow: { name: "Yellow Beanie", category: "hat", icon: "cosmetic_icons35.png" },
+  hat_bucket_green: { name: "Green Bucket Hat", category: "hat", icon: "cosmetic_icons25.png" },
+  hat_bucket_tan: { name: "Tan Bucket Hat", category: "hat", icon: "cosmetic_icons25.png" },
+  hat_cowboyhat_black: { name: "Black Cowboy Hat", category: "hat", icon: "cosmetic_icons27.png" },
+  hat_cowboyhat_brown: { name: "Brown Cowboy Hat", category: "hat", icon: "cosmetic_icons27.png" },
+  hat_cowboyhat_pink: { name: "Pink Cowboy Hat", category: "hat", icon: "cosmetic_icons27.png" },
+  hat_crown: { name: "Crown", category: "hat", icon: "cosmetic_icons26.png" },
+  hat_tophat: { name: "Top Hat", category: "hat", icon: "cosmetic_icons13.png" }
+};
+
+const legs: Things = {
+  legs_none: { name: "No Pants", category: "legs", icon: null },
+  legs_pants_long_black: { name: "Black Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_blue: { name: "Blue Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_brown: { name: "Brown Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_green: { name: "Green Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_grey: { name: "Grey Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_maroon: { name: "Maroon Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_olive: { name: "Olive Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_orange: { name: "Orange Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_purple: { name: "Purple Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_red: { name: "Red Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_salmon: { name: "Salmon Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_tan: { name: "Tan Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_teal: { name: "Teal Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_white: { name: "White Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_long_yellow: { name: "Yellow Pants", category: "legs", icon: "cosmetic_icons11.png" },
+  legs_pants_short_black: { name: "Black Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_blue: { name: "Blue Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_brown: { name: "Brown Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_green: { name: "Green Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_grey: { name: "Grey Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_maroon: { name: "Maroon Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_olive: { name: "Olive Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_orange: { name: "Orange Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_purple: { name: "Purple Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_red: { name: "Red Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_salmon: { name: "Salmon Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_tan: { name: "Tan Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_teal: { name: "Teal Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_white: { name: "White Shorts", category: "legs", icon: "cosmetic_icons12.png" },
+  legs_pants_short_yellow: { name: "Yellow Shorts", category: "legs", icon: "cosmetic_icons12.png" }
+};
+
+const overshirt: Things = {
+  overshirt_none: { name: "No Shirt", category: "overshirt", icon: null },
+  overshirt_flannel_closed_black: {
+    name: "Black Flannel (Closed)",
+    category: "overshirt",
+    icon: "cosmetic_icons10.png"
+  },
+  overshirt_flannel_closed_blue: { name: "Blue Flannel (Closed)", category: "overshirt", icon: "cosmetic_icons10.png" },
+  overshirt_flannel_closed_green: {
+    name: "Green Flannel (Closed)",
+    category: "overshirt",
+    icon: "cosmetic_icons10.png"
+  },
+  overshirt_flannel_closed_olive: {
+    name: "Olive Flannel (Closed)",
+    category: "overshirt",
+    icon: "cosmetic_icons10.png"
+  },
+  overshirt_flannel_closed_purple: {
+    name: "Purple Flannel (Closed)",
+    category: "overshirt",
+    icon: "cosmetic_icons10.png"
+  },
+  overshirt_flannel_closed_red: { name: "Red Flannel (Closed)", category: "overshirt", icon: "cosmetic_icons10.png" },
+  overshirt_flannel_closed_salmon: {
+    name: "Salmon Flannel (Closed)",
+    category: "overshirt",
+    icon: "cosmetic_icons10.png"
+  },
+  overshirt_flannel_closed_teal: { name: "Teal Flannel (Closed)", category: "overshirt", icon: "cosmetic_icons10.png" },
+  overshirt_flannel_closed_white: {
+    name: "White Flannel (Closed)",
+    category: "overshirt",
+    icon: "cosmetic_icons10.png"
+  },
+  overshirt_flannel_closed_yellow: {
+    name: "Yellow Flannel (Closed)",
+    category: "overshirt",
+    icon: "cosmetic_icons10.png"
+  },
+  overshirt_flannel_open_black: { name: "Black Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_blue: { name: "Blue Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_green: { name: "Green Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_olive: { name: "Olive Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_purple: { name: "Purple Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_red: { name: "Red Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_salmon: { name: "Salmon Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_teal: { name: "Teal Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_white: { name: "White Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_flannel_open_yellow: { name: "Yellow Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
+  overshirt_labcoat: { name: "Labcoat", category: "overshirt", icon: "cosmetic_icons66.png" },
+  overshirt_overall_brown: { name: "Brown Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
+  overshirt_overall_green: { name: "Green Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
+  overshirt_overall_grey: { name: "Grey Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
+  overshirt_overall_olive: { name: "Olive Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
+  overshirt_overall_tan: { name: "Tan Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
+  overshirt_overall_yellow: { name: "Yellow Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
+  overshirt_sweatshirt_black: { name: "Black Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_blue: { name: "Blue Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_brown: { name: "Brown Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_green: { name: "Green Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_grey: { name: "Grey Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_maroon: { name: "Maroon Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_olive: { name: "Olive Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_orange: { name: "Orange Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_purple: { name: "Purple Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_red: { name: "Red Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_salmon: { name: "Salmon Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_tan: { name: "Tan Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_teal: { name: "Teal Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_white: { name: "White Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_sweatshirt_yellow: { name: "Yellow Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
+  overshirt_trenchcoat: { name: "Trenchcoat", category: "overshirt", icon: "cosmetic_icons66.png" },
+  overshirt_vest_black: { name: "Black Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
+  overshirt_vest_green: { name: "Green Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
+  overshirt_vest_grey: { name: "Grey Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
+  overshirt_vest_olive: { name: "Olive Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
+  overshirt_vest_tan: { name: "Tan Vest", category: "overshirt", icon: "cosmetic_icons19.png" }
+};
+
+const undershirt: Things = {
+  shirt_none: { name: "shirt none", category: "undershirt", icon: null },
+  undershirt_graphic_tshirt_ace: { name: "Ace T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_anchor: { name: "Anchor T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_bi: { name: "Bi T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_burger: { name: "Burger T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_dare: { name: "DARE T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_gay: { name: "Gay T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_goodboy: { name: "Good Boy T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_hooklite: {
+    name: "Hook Lite T-Shirt",
+    category: "undershirt",
+    icon: "cosmetic_icons32.png"
+  },
+  undershirt_graphic_tshirt_lesbian: { name: "Lesbian T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_milf: { name: "MILF T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_mlm: { name: "Mlm T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_nobait: { name: "No Bait T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_nonbinary: {
+    name: "Non-Binary T-Shirt",
+    category: "undershirt",
+    icon: "cosmetic_icons32.png"
+  },
+  undershirt_graphic_tshirt_pan: { name: "Pan T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_smokemon: {
+    name: "Smoke' Mon T-Shirt",
+    category: "undershirt",
+    icon: "cosmetic_icons32.png"
+  },
+  undershirt_graphic_tshirt_soscary: { name: "So Scary T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_soup: { name: "Soup T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_graphic_tshirt_threewolves: {
+    name: "Three Wolves T-Shirt",
+    category: "undershirt",
+    icon: "cosmetic_icons32.png"
+  },
+  undershirt_graphic_tshirt_trans: { name: "Trans T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
+  undershirt_tanktop_black: { name: "Black Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_blue: { name: "Blue Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_brown: { name: "Brown Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_green: { name: "Green Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_grey: { name: "Grey Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_maroon: { name: "Maroon Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_olive: { name: "Olive Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_orange: { name: "Orange Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_purple: { name: "Purple Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_red: { name: "Red Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_salmon: { name: "Salmon Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_tan: { name: "Tan Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_teal: { name: "Teal Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_white: { name: "White Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tanktop_yellow: { name: "Yellow Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
+  undershirt_tshirt_black: { name: "Black T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_blue: { name: "Blue T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_brown: { name: "Brown T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_green: { name: "Green T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_grey: { name: "Grey T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_maroon: { name: "Maroon T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_olive: { name: "Olive T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_orange: { name: "Orange T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_purple: { name: "Purple T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_red: { name: "Red T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_salmon: { name: "Salmon T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_tan: { name: "Tan T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_teal: { name: "Teal T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_white: { name: "White T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
+  undershirt_tshirt_yellow: { name: "Yellow T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" }
+};
+
 const species: Things = {
   species_cat: { name: "Cat", category: "species", icon: "cosmetic_icons3.png" },
   species_dog: { name: "Dog", category: "species", icon: "cosmetic_icons2.png" }
@@ -84,65 +294,8 @@ const eye: Things = {
   eye_starlight: { name: "Starlight", category: "eye", icon: "roaway_eye4.png" },
   eye_tired: { name: "Tired", category: "eye", icon: "eyes_base14.png" },
   eye_wings: { name: "Wings", category: "eye", icon: "apple_eye6.png" },
+  eye_wobble: { name: "Wobble", category: "eye", icon: null },
   eye_x: { name: "X", category: "eye", icon: "eyes_base13.png" }
-};
-
-const hat: Things = {
-  hat_baseball_cap_big: { name: "Fear Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_baseball_cap_green: { name: "Fish Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_baseball_cap_mcd: { name: "Fastfood Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_baseball_cap_missing: { name: "Missing Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_baseball_cap_orange: { name: "Catfish Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_baseball_cap_pee: { name: "Peeing Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_baseball_cap_size: { name: "Size Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_baseball_cap_sports: { name: "Sport Baseball Cap", category: "hat", icon: "cosmetic_icons34.png" },
-  hat_beanie_black: { name: "Black Beanie", category: "hat", icon: "cosmetic_icons35.png" },
-  hat_beanie_blue: { name: "Blue Beanie", category: "hat", icon: "cosmetic_icons35.png" },
-  hat_beanie_green: { name: "Green Beanie", category: "hat", icon: "cosmetic_icons35.png" },
-  hat_beanie_maroon: { name: "Maroon Beanie", category: "hat", icon: "cosmetic_icons35.png" },
-  hat_beanie_teal: { name: "Teal Beanie", category: "hat", icon: "cosmetic_icons35.png" },
-  hat_beanie_white: { name: "White Beanie", category: "hat", icon: "cosmetic_icons35.png" },
-  hat_beanie_yellow: { name: "Yellow Beanie", category: "hat", icon: "cosmetic_icons35.png" },
-  hat_bucket_green: { name: "Green Bucket Hat", category: "hat", icon: "cosmetic_icons25.png" },
-  hat_bucket_tan: { name: "Tan Bucket Hat", category: "hat", icon: "cosmetic_icons25.png" },
-  hat_cowboyhat_black: { name: "Black Cowboy Hat", category: "hat", icon: "cosmetic_icons27.png" },
-  hat_cowboyhat_brown: { name: "Brown Cowboy Hat", category: "hat", icon: "cosmetic_icons27.png" },
-  hat_cowboyhat_pink: { name: "Pink Cowboy Hat", category: "hat", icon: "cosmetic_icons27.png" },
-  hat_crown: { name: "Crown", category: "hat", icon: "cosmetic_icons26.png" },
-  hat_tophat: { name: "Top Hat", category: "hat", icon: "cosmetic_icons13.png" }
-};
-
-const legs: Things = {
-  legs_pants_long_black: { name: "Black Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_blue: { name: "Blue Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_brown: { name: "Brown Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_green: { name: "Green Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_grey: { name: "Grey Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_maroon: { name: "Maroon Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_olive: { name: "Olive Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_orange: { name: "Orange Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_purple: { name: "Purple Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_red: { name: "Red Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_salmon: { name: "Salmon Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_tan: { name: "Tan Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_teal: { name: "Teal Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_white: { name: "White Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_long_yellow: { name: "Yellow Pants", category: "legs", icon: "cosmetic_icons11.png" },
-  legs_pants_short_black: { name: "Black Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_blue: { name: "Blue Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_brown: { name: "Brown Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_green: { name: "Green Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_grey: { name: "Grey Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_maroon: { name: "Maroon Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_olive: { name: "Olive Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_orange: { name: "Orange Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_purple: { name: "Purple Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_red: { name: "Red Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_salmon: { name: "Salmon Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_tan: { name: "Tan Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_teal: { name: "Teal Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_white: { name: "White Shorts", category: "legs", icon: "cosmetic_icons12.png" },
-  legs_pants_short_yellow: { name: "Yellow Shorts", category: "legs", icon: "cosmetic_icons12.png" }
 };
 
 const mouth: Things = {
@@ -193,88 +346,10 @@ const nose: Things = {
   nose_whisker: { name: "Whiskers", category: "nose", icon: "nose9.png" }
 };
 
-const overshirt: Things = {
-  overshirt_flannel_closed_black: {
-    name: "Black Flannel (Closed)",
-    category: "overshirt",
-    icon: "cosmetic_icons10.png"
-  },
-  overshirt_flannel_closed_blue: { name: "Blue Flannel (Closed)", category: "overshirt", icon: "cosmetic_icons10.png" },
-  overshirt_flannel_closed_green: {
-    name: "Green Flannel (Closed)",
-    category: "overshirt",
-    icon: "cosmetic_icons10.png"
-  },
-  overshirt_flannel_closed_olive: {
-    name: "Olive Flannel (Closed)",
-    category: "overshirt",
-    icon: "cosmetic_icons10.png"
-  },
-  overshirt_flannel_closed_purple: {
-    name: "Purple Flannel (Closed)",
-    category: "overshirt",
-    icon: "cosmetic_icons10.png"
-  },
-  overshirt_flannel_closed_red: { name: "Red Flannel (Closed)", category: "overshirt", icon: "cosmetic_icons10.png" },
-  overshirt_flannel_closed_salmon: {
-    name: "Salmon Flannel (Closed)",
-    category: "overshirt",
-    icon: "cosmetic_icons10.png"
-  },
-  overshirt_flannel_closed_teal: { name: "Teal Flannel (Closed)", category: "overshirt", icon: "cosmetic_icons10.png" },
-  overshirt_flannel_closed_white: {
-    name: "White Flannel (Closed)",
-    category: "overshirt",
-    icon: "cosmetic_icons10.png"
-  },
-  overshirt_flannel_closed_yellow: {
-    name: "Yellow Flannel (Closed)",
-    category: "overshirt",
-    icon: "cosmetic_icons10.png"
-  },
-  overshirt_flannel_open_black: { name: "Black Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_blue: { name: "Blue Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_green: { name: "Green Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_olive: { name: "Olive Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_purple: { name: "Purple Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_red: { name: "Red Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_salmon: { name: "Salmon Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_teal: { name: "Teal Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_white: { name: "White Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_flannel_open_yellow: { name: "Yellow Flannel (Open)", category: "overshirt", icon: "cosmetic_icons9.png" },
-  overshirt_labcoat: { name: "Labcoat", category: "overshirt", icon: "cosmetic_icons66.png" },
-  overshirt_overall_brown: { name: "Brown Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
-  overshirt_overall_green: { name: "Green Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
-  overshirt_overall_grey: { name: "Grey Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
-  overshirt_overall_olive: { name: "Olive Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
-  overshirt_overall_tan: { name: "Tan Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
-  overshirt_overall_yellow: { name: "Yellow Overalls", category: "overshirt", icon: "cosmetic_icons24.png" },
-  overshirt_sweatshirt_black: { name: "Black Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_blue: { name: "Blue Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_brown: { name: "Brown Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_green: { name: "Green Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_grey: { name: "Grey Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_maroon: { name: "Maroon Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_olive: { name: "Olive Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_orange: { name: "Orange Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_purple: { name: "Purple Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_red: { name: "Red Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_salmon: { name: "Salmon Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_tan: { name: "Tan Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_teal: { name: "Teal Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_white: { name: "White Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_sweatshirt_yellow: { name: "Yellow Hoodie", category: "overshirt", icon: "cosmetic_icons18.png" },
-  overshirt_trenchcoat: { name: "Trenchcoat", category: "overshirt", icon: "cosmetic_icons66.png" },
-  overshirt_vest_black: { name: "Black Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
-  overshirt_vest_green: { name: "Green Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
-  overshirt_vest_grey: { name: "Grey Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
-  overshirt_vest_olive: { name: "Olive Vest", category: "overshirt", icon: "cosmetic_icons19.png" },
-  overshirt_vest_tan: { name: "Tan Vest", category: "overshirt", icon: "cosmetic_icons19.png" }
-};
-
 const pattern: Things = {
   pattern_calico: { name: "Calico Pattern", category: "pattern", icon: "cosmetic_icons61.png" },
   pattern_collie: { name: "Collie Pattern", category: "pattern", icon: "cosmetic_icons61.png" },
+  pattern_none: { name: "No Pattern", category: "pattern", icon: null },
   pattern_spotted: { name: "Spotted Pattern", category: "pattern", icon: "cosmetic_icons61.png" },
   pattern_tux: { name: "Tux Pattern", category: "pattern", icon: "cosmetic_icons61.png" }
 };
@@ -299,6 +374,80 @@ const primary_color: Things = {
   pcolor_west: { name: "West Fur", category: "primary_color", icon: "cosmetic_icons4.png" },
   pcolor_white: { name: "White Fur", category: "primary_color", icon: "cosmetic_icons4.png" },
   pcolor_yellow: { name: "Yellow Fur", category: "primary_color", icon: "cosmetic_icons4.png" }
+};
+
+const title: Things = {
+  title_rank_1: { name: "Scout Title", category: "title", icon: null },
+  title_rank_10: { name: "Second Class Scout Title", category: "title", icon: null },
+  title_rank_15: { name: "First Class Scout Title", category: "title", icon: null },
+  title_rank_20: { name: "Star Scout Title", category: "title", icon: null },
+  title_rank_25: { name: "Life Scout Title", category: "title", icon: null },
+  title_rank_30: { name: "Eagle Scout Title", category: "title", icon: null },
+  title_rank_35: { name: "Survival Expert Title", category: "title", icon: null },
+  title_rank_40: { name: "Pack Leader Title", category: "title", icon: null },
+  title_rank_45: { name: "Headmaster", category: "title", icon: null },
+  title_rank_5: { name: "Tenderfoot Title", category: "title", icon: null },
+  title_rank_50: { name: "Voyager Title", category: "title", icon: null },
+  title_ace: { name: "Ace Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_ancient: { name: "Ancient Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_bi: { name: "Bi Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_bipedalanimaldrawer: { name: "Bipedal Animal Drawer Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_cadaverdog: { name: "Cadaver Dog Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_catfisher: { name: "Catfisher Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_cozy: { name: "Cozy Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_creature: { name: "Creature Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_critter: { name: "Critter Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_cryptid: { name: "Cryptid Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_dude: { name: "Dude Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_elite: { name: "Elite Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_equalsthree: { name: ":3 Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_fishpilled: { name: "Fish-Pilled Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_freaky: { name: "Freaky Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_gay: { name: "Gay Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_goldenbass: {
+    name: "The Title Only For People Who Caught The Super Duper Rare Golden Bass Title",
+    category: "title",
+    icon: "cosmetic_icons62.png"
+  },
+  title_goldenray: {
+    name: "The Title Only For People Who Caught The Super Duper Rare Golden Ray Title",
+    category: "title",
+    icon: "cosmetic_icons62.png"
+  },
+  title_goober: { name: "Goober Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_goodboy: { name: "Good Boy Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_goodgirl: { name: "Good Girl Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_imnormal: { name: "Normal and Regular Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_iscool: { name: "Is Cool Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_king: { name: "King Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_kitten: { name: "Kitten Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_koiboy: { name: "Koi Boy Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_lamedev: { name: "Fake Lamedev Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_lamedev_real: { name: "Lamedev Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_lesbian: { name: "Lesbian Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_littlelad: { name: "Little Lad Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_majestic: { name: "Majestic Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_musky: { name: "Musky Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_nightcrawler: { name: "Night Crawler Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_nonbinary: { name: "Non-Binary Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_none: { name: "No Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_pan: { name: "Pan Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_pretty: { name: "Pretty Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_problematic: { name: "Problematic Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_pup: { name: "Pup Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_puppy: { name: "Puppy Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_queer: { name: "Queer Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_sharkbait: { name: "Shark Bait Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_shithead: { name: "Shithead Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_sillyguy: { name: "Silly Guy Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_soggy: { name: "Soggy Doggy Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_special: { name: "Special Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_stinkerdinker: { name: "Stinker Dinker Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_straight: { name: '"straight" Title', category: "title", icon: "cosmetic_icons62.png" },
+  title_strongestwarrior: { name: "Strongest Warrior Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_stupididiotbaby: { name: "Stupid Idiot Baby Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_trans: { name: "Trans Title", category: "title", icon: "cosmetic_icons62.png" },
+  title_yapper: { name: "Yapper Title", category: "title", icon: "cosmetic_icons62.png" }
 };
 
 const secondary_color: Things = {
@@ -327,131 +476,11 @@ const tail: Things = {
   tail_dog_fluffy: { name: "Fluffy Tail", category: "tail", icon: "cosmetic_icons21.png" },
   tail_dog_short: { name: "Short Tail", category: "tail", icon: "cosmetic_icons23.png" },
   tail_dog_thin: { name: "Dog Tail", category: "tail", icon: "cosmetic_icons20.png" },
-  tail_fox: { name: "Fox Tail", category: "tail", icon: "cosmetic_icons22.png" }
-};
-
-const title: Things = {
-  title_ace: { name: "Ace Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_ancient: { name: "Ancient Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_bi: { name: "Bi Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_bipedalanimaldrawer: { name: "Bipedal Animal Drawer Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_catfisher: { name: "Catfisher Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_cozy: { name: "Cozy Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_critter: { name: "Critter Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_dude: { name: "Dude Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_elite: { name: "Elite Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_equalsthree: { name: ":3 Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_fishpilled: { name: "Fish-Pilled Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_gay: { name: "Gay Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_goldenbass: {
-    name: "The Title Only For People Who Caught The Super Duper Rare Golden Bass Title",
-    category: "title",
-    icon: "cosmetic_icons62.png"
-  },
-  title_goldenray: {
-    name: "The Title Only For People Who Caught The Super Duper Rare Golden Ray Title",
-    category: "title",
-    icon: "cosmetic_icons62.png"
-  },
-  title_goober: { name: "Goober Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_goodboy: { name: "Good Boy Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_goodgirl: { name: "Good Girl Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_imnormal: { name: "Normal and Regular Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_iscool: { name: "Is Cool Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_king: { name: "King Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_kitten: { name: "Kitten Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_koiboy: { name: "Koi Boy Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_lamedev: { name: "Fake Lamedev Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_lamedev_real: { name: "Lamedev Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_lesbian: { name: "Lesbian Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_littlelad: { name: "Little Lad Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_majestic: { name: "Majestic Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_musky: { name: "Musky Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_nightcrawler: { name: "Night Crawler Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_none: { name: "No Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_pan: { name: "Pan Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_pretty: { name: "Pretty Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_problematic: { name: "Problematic Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_pup: { name: "Pup Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_puppy: { name: "Puppy Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_queer: { name: "Queer Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_sharkbait: { name: "Shark Bait Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_shithead: { name: "Shithead Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_sillyguy: { name: "Silly Guy Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_soggy: { name: "Soggy Doggy Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_special: { name: "Special Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_stinkerdinker: { name: "Stinker Dinker Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_strongestwarrior: { name: "Strongest Warrior Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_stupididiotbaby: { name: "Stupid Idiot Baby Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_trans: { name: "Trans Title", category: "title", icon: "cosmetic_icons62.png" },
-  title_yapper: { name: "Yapper Title", category: "title", icon: "cosmetic_icons62.png" }
-};
-
-const undershirt: Things = {
-  undershirt_graphic_tshirt_ace: { name: "Ace T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_anchor: { name: "Anchor T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_bi: { name: "Bi T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_burger: { name: "Burger T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_dare: { name: "DARE T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_gay: { name: "Gay T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_goodboy: { name: "Good Boy T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_hooklite: {
-    name: "Hook Lite T-Shirt",
-    category: "undershirt",
-    icon: "cosmetic_icons32.png"
-  },
-  undershirt_graphic_tshirt_lesbian: { name: "Lesbian T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_milf: { name: "MILF T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_mlm: { name: "Mlm T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_nobait: { name: "No Bait T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_pan: { name: "Pan T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_smokemon: {
-    name: "Smoke' Mon T-Shirt",
-    category: "undershirt",
-    icon: "cosmetic_icons32.png"
-  },
-  undershirt_graphic_tshirt_soscary: { name: "So Scary T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_soup: { name: "Soup T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_graphic_tshirt_threewolves: {
-    name: "Three Wolves T-Shirt",
-    category: "undershirt",
-    icon: "cosmetic_icons32.png"
-  },
-  undershirt_graphic_tshirt_trans: { name: "Trans T-Shirt", category: "undershirt", icon: "cosmetic_icons32.png" },
-  undershirt_tanktop_black: { name: "Black Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_blue: { name: "Blue Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_brown: { name: "Brown Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_green: { name: "Green Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_grey: { name: "Grey Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_maroon: { name: "Maroon Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_olive: { name: "Olive Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_orange: { name: "Orange Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_purple: { name: "Purple Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_red: { name: "Red Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_salmon: { name: "Salmon Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_tan: { name: "Tan Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_teal: { name: "Teal Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_white: { name: "White Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tanktop_yellow: { name: "Yellow Tank-Top", category: "undershirt", icon: "cosmetic_icons17.png" },
-  undershirt_tshirt_black: { name: "Black T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_blue: { name: "Blue T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_brown: { name: "Brown T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_green: { name: "Green T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_grey: { name: "Grey T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_maroon: { name: "Maroon T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_olive: { name: "Olive T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_orange: { name: "Orange T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_purple: { name: "Purple T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_red: { name: "Red T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_salmon: { name: "Salmon T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_tan: { name: "Tan T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_teal: { name: "Teal T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_white: { name: "White T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" },
-  undershirt_tshirt_yellow: { name: "Yellow T-Shirt", category: "undershirt", icon: "cosmetic_icons1.png" }
+  tail_fox: { name: "Fox Tail", category: "tail", icon: "cosmetic_icons22.png" },
+  tail_none: { name: "No Tail", category: "tail", icon: null }
 };
 
 const fish: Things = {
-  fish_void_voidfish: { name: "CREATURE", category: "fish", icon: "fish_void_voidfish.gif" },
   fish_alien_dog: { name: "Unidentified Fish Object", category: "fish", icon: "alien_creature1.png" },
   fish_deep_test: { name: "Axolotl", category: "fish", icon: "creature_main30.png" },
   fish_deep_testb: { name: "Axolotl", category: "fish", icon: "creature_main30.png" },
@@ -524,6 +553,7 @@ const fish: Things = {
   fish_rain_heliocoprion: { name: "Helicoprion", category: "fish", icon: "creature_main80.png" },
   fish_rain_horseshoe_crab: { name: "Horseshoe Crab", category: "fish", icon: "prehistoric_1.png" },
   fish_rain_leedsichthys: { name: "Leedsichthys", category: "fish", icon: "creature_bigfish.png" },
+  fish_void_voidfish: { name: "CREATURE", category: "fish", icon: "fish_void_voidfish.gif" },
   mdl_button: { name: "Button", category: "fish", icon: "metal_detect_loot3.png" },
   mdl_casing: { name: "Casing", category: "fish", icon: "metal_detect_loot4.png" },
   mdl_coin: { name: "Old Coin", category: "fish", icon: "metal_detect_loot2.png" },
@@ -565,14 +595,16 @@ const tool: Things = {
   chalk_white: { name: "White Chalk", category: "tool", icon: "toolicons17.png" },
   chalk_yellow: { name: "Yellow Chalk", category: "tool", icon: "toolicons21.png" },
   potion_beer: { name: "Hook's Lite", category: "tool", icon: "toolicons10.png" },
+  potion_bounce: { name: "Bounce Brew", category: "tool", icon: "toolicons60.png" },
+  potion_bouncebig: { name: "Super Bounce Brew", category: "tool", icon: "toolicons61.png" },
   potion_catch: { name: "Catcher's Cola", category: "tool", icon: "toolicons7.png" },
   potion_catch_big: { name: "Catcher's Cola ULTRA", category: "tool", icon: "toolicons8.png" },
   potion_catch_deluxe: { name: "Catcher's Cola DELUXE", category: "tool", icon: "toolicons9.png" },
   potion_grow: { name: "Big Beverage", category: "tool", icon: "toolicons11.png" },
   potion_revert: { name: "Water", category: "tool", icon: "toolicons15.png" },
   potion_small: { name: "Shrink Soda", category: "tool", icon: "toolicons12.png" },
-  potion_speed: { name: "Speed Slurpee", category: "tool", icon: "toolicons13.png" },
-  potion_speed_burst: { name: "Speed Slurpee XL", category: "tool", icon: "toolicons14.png" },
+  potion_speed: { name: "Speed Slurpo", category: "tool", icon: "toolicons13.png" },
+  potion_speed_burst: { name: "Speed Slurpo XL", category: "tool", icon: "toolicons14.png" },
   potion_wine: { name: "Red Carp-ernet Sauvignon Wine", category: "tool", icon: "toolicons16.png" },
   boxing_glove: { name: "Boxing Glove", category: "tool", icon: "toolicons57.png" },
   boxing_glove_super: { name: "Super Boxing Glove", category: "tool", icon: "toolicons59.png" },
@@ -598,8 +630,10 @@ const tool: Things = {
     category: "tool",
     icon: "toolicons31.png"
   },
+  fishing_rod_prosperous: { name: "Prosperous Fishing Rod", category: "tool", icon: "toolicons65.png" },
   fishing_rod_simple: { name: "Simple Fishing Rod", category: "tool", icon: "toolicons29.png" },
   fishing_rod_skeleton: { name: "Spectral Rod", category: "tool", icon: "toolicons36.png" },
+  fishing_rod_travelers: { name: "Traveler's Fishing Rod", category: "tool", icon: "toolicons64.png" },
   fish_trap: { name: "Freshwater Fishing Buddy", category: "tool", icon: "toolicons37.png" },
   fish_trap_ocean: { name: "Saltwater Fishing Buddy", category: "tool", icon: "toolicons38.png" },
   guitar: { name: "Guitar", category: "tool", icon: "toolicons46.png" },
@@ -608,7 +642,9 @@ const tool: Things = {
   guitar_gradient: { name: "Fade Guitar", category: "tool", icon: "toolicons47.png" },
   guitar_pink: { name: "Pink Guitar", category: "tool", icon: "toolicons50.png" },
   guitar_stickers: { name: "Stickered Guitar", category: "tool", icon: "toolicons48.png" },
+  hand_labeler: { name: "Hand Labeler", category: "tool", icon: "toolicons62.png" },
   metal_detector: { name: "Metal Detector", category: "tool", icon: "toolicons39.png" },
+  portable_bait: { name: "Portable Bait Station", category: "tool", icon: "toolicons63.png" },
   ringbox: { name: "Ring Box", category: "tool", icon: "toolicons56.png" },
   scratch_off: { name: "Scratch Off", category: "tool", icon: "toolicons52.png" },
   scratch_off_2: { name: "Scratch Off", category: "tool", icon: "toolicons54.png" },
@@ -646,21 +682,21 @@ export const items: Things = {
 };
 
 export const cosmetics: Things = {
+  ...hat,
+  ...legs,
+  ...overshirt,
+  ...undershirt,
   ...species,
   ...accessory,
   ...bobber,
   ...eye,
-  ...hat,
-  ...legs,
   ...mouth,
   ...nose,
-  ...overshirt,
   ...pattern,
   ...primary_color,
-  ...secondary_color,
-  ...tail,
   ...title,
-  ...undershirt
+  ...secondary_color,
+  ...tail
 };
 
 const all = { ...items, ...cosmetics };

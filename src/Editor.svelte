@@ -9,6 +9,7 @@
   import Journal from "./parts/Journal.svelte";
   import Lures from "./parts/Lures.svelte";
   import Quests from "./parts/Quests.svelte";
+  import CorruptSave from "./components/CorruptSave.svelte";
 
   export let save: WebfishingSave;
 
@@ -22,6 +23,8 @@
     Quests
   ];
 </script>
+
+<CorruptSave {save} />
 
 {#each sections as Section, i}
   <Section {save} />
