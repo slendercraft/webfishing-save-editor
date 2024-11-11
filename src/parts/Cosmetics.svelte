@@ -21,15 +21,7 @@
 
   // These are cosmetics the developer gave to their friends with specific Steam IDs
   // These mean something to the people who have them - don't be an asshole
-  let blockedCosmetics = [
-    "title_stupididiotbaby",
-    "title_imnormal",
-    "title_bipedalanimaldrawer",
-    "pcolor_west",
-    "title_lamedev",
-    "title_lamedev_real",
-    "scolor_midnight_special"
-  ];
+  let blockedCosmetics = [];
 
   const filteredCosmetics = Object.fromEntries(
     Object.entries(cosmetics).filter(([id, cosmetic]) => !blockedCosmetics.includes(id))
